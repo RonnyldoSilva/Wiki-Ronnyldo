@@ -33,6 +33,8 @@ cv2_imshow(img_copia)
 
 ### Cenários Naturais:
 
+![image](https://user-images.githubusercontent.com/37785171/207730274-886e1424-47f7-4041-b612-efd8e38530fe.png)
+
 ### Métricas de avaliação:
 
 Semelhante aos modelos de machine learning convencionais temos as métricas que podem ser utilizadas após a montagem da matriz de confusão e nos auxiliam a entender melhor sobre como nosso modelo está performando.
