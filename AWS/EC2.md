@@ -39,3 +39,13 @@
 6 - Nos detalhes da instância, clique para acessar o endereço de DNS público dessa instância. Na aba aberta, substitua “https” por “http”. A página de boas-vindas da imagem deve ser exibida com sucesso;
 
 7 - Se conecte, via ssh, à instância usando o usuário “bitnami”.
+
+## Imagem vs Modelo
+
+Qual a diferença entre Imagem e Modelo que podemos criar a partir de uma instância existente?
+
+- Imagem é relacionado ao software enquanto Modelo é ao hardware.
+
+- Ao criarmos uma instância a partir de uma imagem, podemos selecionar todo o hardware (tipo de instância, rede, etc) e algum software já vem pré-instalado. No exemplo da aula foi o Nginx. Já com o Modelo, nós podemos selecionar qualquer imagem e o hardware já estará pré-configurado. Inclusive nós criaremos um modelo mais adiante no curso para que a AWS possa criar instâncias automaticamente para nós.
+
+- `Criação` da image. Para criarmos uma imagem a partir de uma instância, o que devemos fazer? Parar a instância e criar a imagem. Parar a instância sempre é a recomendação. Desta forma, garantimos a integridade dos dados.
