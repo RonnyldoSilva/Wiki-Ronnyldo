@@ -49,3 +49,21 @@ Qual a diferença entre Imagem e Modelo que podemos criar a partir de uma instâ
 - Ao criarmos uma instância a partir de uma imagem, podemos selecionar todo o hardware (tipo de instância, rede, etc) e algum software já vem pré-instalado. No exemplo da aula foi o Nginx. Já com o Modelo, nós podemos selecionar qualquer imagem e o hardware já estará pré-configurado. Inclusive nós criaremos um modelo mais adiante no curso para que a AWS possa criar instâncias automaticamente para nós.
 
 - `Criação` da image. Para criarmos uma imagem a partir de uma instância, o que devemos fazer? Parar a instância e criar a imagem. Parar a instância sempre é a recomendação. Desta forma, garantimos a integridade dos dados.
+
+## IP dedicado ou IP elástico
+
+![image](https://user-images.githubusercontent.com/37785171/208120202-f106fd0d-cf36-4dbe-ae0e-5c834e155785.png)
+
+- Ao criar o IP dedica, você pode deixar as configurações padrão, no momento da criação.
+
+- Agora é necessário associar o IP dedicado há uma instância deseja:
+
+![image](https://user-images.githubusercontent.com/37785171/208120620-10b03250-4b7b-4236-80e4-4b17749fbf30.png)
+
+- Você pode desligar e ligar a instância, mas o seu ip dedicado será o mesmo.
+
+- Você pode ter mais de um IP para mesma instância, por exemplo, 5 Ips.
+
+- Se você criar um IP dedicado, e usar em uma instância que se mantém desligada por bastante tempo, você será cobrado por utilizar o serviço de IP elástico. O uso do Elastic IP garante que a sua máquina mantenha um IP único, mesmo que seja desligada. Como o recurso de IP Dedicado funciona em relação à cobrança? Um IP por EC2 é gratuito, caso a máquina mantenha-se ligada. Esta é a condição para que você tenha o Elastic IP de forma gratuita. Caso haja mais IPs anexados a uma instância ou a instância seja desligada, você será cobrado.
+
+## RDS. Serviço de banco de dados
