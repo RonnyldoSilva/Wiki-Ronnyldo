@@ -17,3 +17,9 @@ Para restaurar seu notebook, talvez seja necessário refazer o upload do seu arq
 
 Posso usar outro ambiente Jupyter notebook para realizar este curso?
 Sim, sem problemas. Caso queira utilizar o Anaconda visto no curso de pandas por exemplo você também pode.
+
+## Style Guide
+
+https://urbaninstitute.github.io/graphics-styleguide/
+
+![image](https://user-images.githubusercontent.com/37785171/210790264-e58a725e-b545-48a5-81d2-9f86932970ae.png)
