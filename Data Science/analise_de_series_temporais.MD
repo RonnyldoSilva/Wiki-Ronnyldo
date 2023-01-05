@@ -1,6 +1,6 @@
 ## Preparando Ambiente
 
-vamos aprender sobre Time Series utilizando o pandas e para gerar os gráficos, vamos utilizar o Seaborn e o Matplotlib.
+Vamos aprender sobre Time Series utilizando o pandas e para gerar os gráficos, vamos utilizar o Seaborn e o Matplotlib.
 
 Neste link, você encontra o material com os dados que vamos analisar neste curso.
 
