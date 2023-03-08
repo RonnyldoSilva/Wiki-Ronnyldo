@@ -13,3 +13,7 @@ source venv/bin/activate
 export AIRFLOW_HOME=~/Documents/MyAirflow
 airflow standalone
 ```
+
+## to access the UI:
+- open your browser
+- go to localhost:8080/home
