@@ -39,3 +39,38 @@ O Airflow utiliza o **Jinja**, uma estrutura de modelagem em Python, como seu me
 
 O Airflow inclui muitas outras variáveis que podem ser usadas para modelagem. Caso queira conhecê-las, consulte a documentação: https://airflow.apache.org/docs/apache-airflow/2.3.2/templates-ref.html
 
+## criando o primeiro dag
+
+Para o desenvolvimento do primeiro DAG, abrimos a pasta de instalação do Airflow e criamos uma subpasta chamada **dags**. Dentro dela, criamos um script Python, chamado **meu_primeiro_dag.py**, no qual desenvolvemos o código do nosso primeiro DAG, da seguinte forma:
+
+- Importamos as bibliotecas:
+
+```
+from airflow.models import DAG
+from airflow.utils.dates import days_ago
+from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.empty import EmptyOperator
+from airflow.operators.bash_operator import BashOperator
+```
+
+- Especificamos os parâmetros do nosso DAG, criamos três tarefas utilizando o EmptyOperator e uma utilizando o BashOperator:
+
+```
+with DAG(
+  'meu_primeiro_dag',
+  start_date=days_ago(1),
+  schedule_interval='@daily',
+) as dag:
+
+   tarefa_1 = EmptyOperator(task_id='tarefa_1')
+   tarefa_2 = EmptyOperator(task_id='tarefa_2')
+   tarefa_3 = EmptyOperator(task_id='tarefa_3')
+
+   tarefa_4 = BashOperator(
+        task_id = 'cria_pasta',
+        bash_command = 'mkdir -p "/home/millenagena/Documents/airflowalura/pasta"'
+      )
+
+   tarefa_1 >> [tarefa_2, tarefa_3] 
+   tarefa_3 >> tarefa_4
+```
