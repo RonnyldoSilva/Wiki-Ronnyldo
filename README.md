@@ -32,4 +32,6 @@ O total de taxas e impostos pagos, fica abaixo dos 10%, já considerando a taxa 
 
 Tem mais alguma dúvida? Comenta aí.
 
-Achou útil o post? Me segue aqui para mais dicas sobre Trabalhar para o Exterior. 
+Achou útil o post? Me segue aqui para mais dicas sobre Trabalhar para o Exterior.
+
+Continua...
