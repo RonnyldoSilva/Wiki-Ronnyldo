@@ -41,3 +41,34 @@ Aguarde a criação do seu banco ser concluída checando no campo de status. Dur
 Uma nova janela irá se abrir, guarde essas informações.
 
 ![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/3901b51a-2d40-4472-bb0e-0a632c1efd25)
+
+## Criação do banco propriamente dito (mesmo a interface estando em português as opções ficavam em inglês)
+
+Para criar o banco, iremos à ferramenta RDS e clicar em Create Database.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/fa7aa3f9-8f16-4b28-a20d-3ad151ac7309)
+
+Faremos a configuração tradicional do banco (Standard) para ver um pouco mais sobre as configurações que iremos escolher. Será usado PostgreSQL versão 11.6.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/306a3f95-8236-4dce-b37f-5e41bca2a2f9)
+
+Escolha a versão como FREE TIER, pois toda conta na AWS tem uma cota de ferramentas grátis por um tempo. Além disso, ela irá te redirecionar para criar um banco com um custo menor.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/6e0b4fdf-b502-449f-aa46-ee698cae32bc)
+
+Preencha também o nome do seu banco e o usuário Master, aquele que terá acesso root na conta (permitido fazer tudo). Preencha sua senha ou deixe que a AWS escolha por você.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/9ebade17-5133-4b33-b4a1-1be522b1701f)
+
+O tipo de máquina escolhido será a t2.micro por não precisarmos de processamento para esse exercício. Escolha 20GB de armazenamento e desative a opção de auto-scale.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/c1b76ce1-bb7c-40dd-b265-7de843381803)
+
+A conectividade pode ser deixada em “default” e não deixaremos o RDS público, faremos um tunnel para acessá-lo via AWS.
+
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/d2a8879e-5f4b-4524-8b7d-ff044cb77f6a)
+
+Coloque para criar uma database “postgres” e desabilite o backup pois para esse exercício não será necessário.
+
+Além disso iremos desabilitar o backup, mas não faça isso em sistemas normais. Está sendo desabilitado para evitar custos!
+
