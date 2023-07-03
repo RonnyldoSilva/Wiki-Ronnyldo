@@ -7,3 +7,5 @@ Site Oficial: https://openai.com/blog/chatgpt
 A OpenAI ainda oferece um plano pago, que garante acesso ao ChatGPT em horários de fluxo intenso, respostas mais rápidas, acesso prioritário a melhorias e novas funcionalidades implementadas. No entanto, o uso gratuito é suficiente para que o usuário utilize os recursos do chat como suporte no seu dia a dia. Para isso, basta clicar no botão “Try ChatGPT”, na página oficial, que vai redirecionar o seu navegador ao link direto da ferramenta. Na sequência, será necessário cadastrar o seu e-mail e senha, o que imediatamente libera o seu acesso ao prompt de mensagens do chat.
 
 `Importante destacar: embora a interface do ChatGPT utilize o inglês como língua padrão, o usuário pode inserir textos em português sem que ocorram problemas na interação.`
+
+O artigo [“What is ChatGPT doing… and why does it work?”](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) também menciona o conceito de modelos, probabilidades, Machine Learning e treinamento de redes neurais, semântica e linguagem computacional, além de entrar em detalhes sobre a engenharia por trás do sistema do ChatGPT.
