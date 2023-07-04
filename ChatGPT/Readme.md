@@ -9,3 +9,7 @@ A OpenAI ainda oferece um plano pago, que garante acesso ao ChatGPT em horários
 `Importante destacar: embora a interface do ChatGPT utilize o inglês como língua padrão, o usuário pode inserir textos em português sem que ocorram problemas na interação.`
 
 O artigo [“What is ChatGPT doing… and why does it work?”](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) também menciona o conceito de modelos, probabilidades, Machine Learning e treinamento de redes neurais, semântica e linguagem computacional, além de entrar em detalhes sobre a engenharia por trás do sistema do ChatGPT.
+
+### AIs e o impacto no mercado de trabalho
+
+No artigo [“Will AIs Take All Our Jobs and End Human History—or Not? Well, It’s Complicated…”](https://writings.stephenwolfram.com/2023/03/will-ais-take-all-our-jobs-and-end-human-history-or-not-well-its-complicated/) (em inglês), Stephen Wolfram argumenta que essa é uma questão complexa e que depende de vários fatores, incluindo a natureza do trabalho, a capacidade da AI de substituir humanos em determinadas tarefas e o papel que as pessoas desempenham no desenvolvimento e uso da tecnologia. Vale a pena a leitura do artigo para entender melhor esse debate.
