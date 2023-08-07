@@ -26,8 +26,8 @@ Agora, precisamos redimensionar os gráficos e ajustá-los conforme a largura. I
 
 Perfeito! Está funcionando muito bem. Com essas demandas prontas, podemos entregar os relatórios para Keila, criando um link de compartilhamento para cada um deles.
 
-<img src='https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/fd4a6eac-507f-4d9d-a0a4-e98f6478c8a9' width="150" height="650") />
+<img src="https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/fd4a6eac-507f-4d9d-a0a4-e98f6478c8a9" width="150" height="650") />
 
-![image|320x271](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/14f8eca5-8f31-4343-9ac6-6a637ddab66e)
+![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/14f8eca5-8f31-4343-9ac6-6a637ddab66e)
 
 ![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/c5b223ee-432f-41b4-b77d-5cd81388003d)
