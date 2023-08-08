@@ -49,6 +49,7 @@ COUNT(CASE WHEN StatusColaborador = "Ativo" THEN "Ativos" END)
 ```
 
 Para a de Desligamentos:, temos o seguinte:
+
 ![image](https://github.com/RonnyldoSilva/Wiki-Ronnyldo/assets/37785171/63895e1a-0a14-480e-9c38-c823843d488f)
 
 Código:
