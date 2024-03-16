@@ -9,4 +9,4 @@ Github Actions com ECR da Amazon
 - https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service
 
 - StreamLit App
-Para criação de apresentações.
+-- Para criação de apresentações.
