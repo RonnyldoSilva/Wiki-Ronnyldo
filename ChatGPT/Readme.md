@@ -13,3 +13,44 @@ O artigo [“What is ChatGPT doing… and why does it work?”](https://writings
 ### AIs e o impacto no mercado de trabalho
 
 No artigo [“Will AIs Take All Our Jobs and End Human History—or Not? Well, It’s Complicated…”](https://writings.stephenwolfram.com/2023/03/will-ais-take-all-our-jobs-and-end-human-history-or-not-well-its-complicated/) (em inglês), Stephen Wolfram argumenta que essa é uma questão complexa e que depende de vários fatores, incluindo a natureza do trabalho, a capacidade da AI de substituir humanos em determinadas tarefas e o papel que as pessoas desempenham no desenvolvimento e uso da tecnologia. Vale a pena a leitura do artigo para entender melhor esse debate.
+
+## Refactor inefficient code
+
+Better code is less prone to bugs and is easier to maintain, and the Azure OpenAI models can help guide developers on how to refactor their code.
+
+Consider the following function.
+
+```
+def calculateTotalPrice(item, quantity):
+    if item == 'apple':
+        return quantity * 0.5
+    elif item == 'banana':
+        return quantity * 0.75
+    elif item == 'orange':
+        return quantity * 0.6
+    else:
+        return 0
+```
+
+This code calculates the total price of a particular item based on its name and quantity. However, the code isn't modular and can be difficult to maintain. When provided to the model with the request to refactor it, here's the response:
+
+```
+item_prices = {  
+    'apple': 0.5,  
+    'banana': 0.75,  
+    'orange': 0.6  
+}  
+
+def calculate_total_price(item, quantity):  
+    price = item_prices.get(item, 0)  
+    return quantity * price
+```
+
+Along with the code, the model provides an explanation of the refactoring.
+
+```
+In this refactored code, we've created an object called itemPrices that maps item names to their 
+prices. We've also simplified the calculateTotalPrice function by using the itemPrices object to look 
+up the price of the item, rather than using a series of if/else statements. This makes the code more 
+modular and easier to maintain, and also reduces the risk of introducing bugs in the future.
+```
