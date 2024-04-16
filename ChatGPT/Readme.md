@@ -20,7 +20,7 @@ Better code is less prone to bugs and is easier to maintain, and the Azure OpenA
 
 Consider the following function.
 
-```
+```python
 def calculateTotalPrice(item, quantity):
     if item == 'apple':
         return quantity * 0.5
@@ -34,7 +34,7 @@ def calculateTotalPrice(item, quantity):
 
 This code calculates the total price of a particular item based on its name and quantity. However, the code isn't modular and can be difficult to maintain. When provided to the model with the request to refactor it, here's the response:
 
-```
+```python
 item_prices = {  
     'apple': 0.5,  
     'banana': 0.75,  
