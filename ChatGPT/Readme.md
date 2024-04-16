@@ -54,3 +54,42 @@ prices. We've also simplified the calculateTotalPrice function by using the item
 up the price of the item, rather than using a series of if/else statements. This makes the code more 
 modular and easier to maintain, and also reduces the risk of introducing bugs in the future.
 ```
+
+## Using the API
+
+Using the API with your own data, you need to specify the data source where your data is stored. With each call you need to include the `endpoint`, `key`, and `indexName` for your AI Search resource.
+
+Your request body will be similar to the following JSON.
+
+```json
+{
+    "dataSources": [
+        {
+            "type": "AzureCognitiveSearch",
+            "parameters": {
+                "endpoint": "<your_search_endpoint>",
+                "key": "<your_search_endpoint>",
+                "indexName": "<your_search_index>"
+            }
+        }
+    ],
+    "messages":[
+        {
+            "role": "system", 
+            "content": "You are a helpful assistant assisting users with travel recommendations."
+        },
+        {
+            "role": "user", 
+            "content": "I want to go to New York. Where should I stay?"
+        }
+    ]
+}
+```
+
+The call when using your own data needs to be sent to a different endpoint than is used when calling a base model, which includes `extensions`. Your call will be sent to a URL similar to the following.
+
+```http
+<your_azure_openai_resource>/openai/deployments/<deployment_name>/chat/completions?api-version=<version>
+```
+
+The request will also need to include the `Content-Type` and `api-key`.
