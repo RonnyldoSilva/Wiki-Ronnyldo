@@ -5,6 +5,7 @@ When you have deployed models to the Azure AI model inference service, you can u
 The following Python code sample uses a ChatCompletionsClient object to chat with a model deployment named phi-4-model.
 
 ´´´python
+
 from azure.ai.projects import AIProjectClient
 from azure.identity import DefaultAzureCredential
 from azure.ai.inference.models import SystemMessage, UserMessage
