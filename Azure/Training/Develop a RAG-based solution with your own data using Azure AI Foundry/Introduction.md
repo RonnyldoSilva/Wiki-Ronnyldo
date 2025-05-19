@@ -4,15 +4,21 @@ Language models are growing in popularity as they create impressive coherent ans
 
 One prevalent challenge when implementing language models through chat is the so-called groundedness, which refers to whether a response is rooted, connected, or anchored in reality or a specific context. In other words, groundedness refers to whether the response of a language model is based on factual information.
 
-Ungrounded prompts and responses
+## Ungrounded prompts and responses
+
 When you use a language model to generate a response to a prompt, the only information that the model has to base the answer on comes from the data on which it was trained - which is often just a large volume of uncontextualized text from the Internet or some other source.
+
+![image](https://github.com/user-attachments/assets/f97a35c4-4dc1-4441-b42b-cd42bd840e3f)
 
 Diagram of an ungrounded model returning an uncontextualized response.
 
 The result will likely be a grammatically coherent and logical response to the prompt, but because it isn't grounded in relevant, factual data, it's uncontextualized; and may in fact be inaccurate and include "invented" information. For example, the question "Which product should I use to do X?" might include details of a fictional product.
 
-Grounded prompts and responses
+## Grounded prompts and responses
+
 In contrast, you can use a data source to ground the prompt with some relevant, factual context. The prompt can then be submitted to a language model, including the grounding data, to generate a contextualized, relevant, and accurate response.
+
+![image](https://github.com/user-attachments/assets/713d2a0a-c6b9-4b4a-9d41-130c6a40c541)
 
 Diagram of a grounded model returning a contextualized response.
 
