@@ -24,3 +24,11 @@ The following table is an example of how to set up role-based access control for
 
 You can add users and assign roles directly from Azure AI Foundry at either the hub or project level. In the management center, select Users in either the hub or project section, then select New user to add a user.
 
+![image](https://github.com/user-attachments/assets/d160168a-c73c-420f-97ad-f3a20ca48a8f)
+
+When you create a hub, the built-in role-based access control permissions grant you access to use the resource. However, if you wish to use resources outside of what was created on your behalf, you need to ensure both:
+
+- The resource you're trying to use has permissions set up to allow you to access it.
+- Your hub is allowed to access it.
+
+For example, if you're trying to consume a new Blob storage that isn't hosted within the associated Azure AI hub. In this circumstance, you need to ensure that hub's managed identity is added to the Blob Storage Reader role for the Blob. You'll also need to ensure that you have configured workplace managed outbound access to allow network communication to the endpoint associated with the blob storage. Network access configuration is covered in more detail by the next unit.
