@@ -96,7 +96,3 @@
 - Estimativas de tempo de entrega
 
 ---
-
-## 📈 Quer um exemplo prático?
-
-Posso gerar um notebook em Python com `geopandas` e `folium` usando dados reais para demonstrar alguma dessas aplicações. Deseja seguir com isso?
