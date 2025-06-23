@@ -3,6 +3,7 @@
 ### Nível 1: Fundamentos Essenciais
 
 **Objetivo:** Construir uma base sólida em matemática, estatística e programação.
+
 **1.1. Fundamentos de Matemática e Estatística:**
     * **Matemática:** Álgebra linear (vetores, matrizes, operações), Cálculo (derivadas, integrais).
     * **Estatística:**
